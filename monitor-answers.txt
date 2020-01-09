@@ -1,0 +1,19 @@
+- Which metrics are interesting to monitor?
+
+	Server performance: [CPU - RAM - Storage - Network]
+	Proxy app:
+	Frontend/Backend:
+						Queue 
+						sessions
+						errors
+						Denied
+						connections rate 
+
+- How would you do that?
+
+	There are many monitoring systems but i preferred Nagios or Prometheus
+
+
+-What are the challenges of monitoring this?
+
+	find the suitable plunges for each service also send the notifications alerts for admins immediately through many ways [email-SMS-desktop agent]
